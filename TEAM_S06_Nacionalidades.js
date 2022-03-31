@@ -14,7 +14,7 @@ var resultado = [];
     Peruanos: 2
   
 */
-
+// 
 function contar(array) {
     resultado = array.reduce(function (acc, curr) {
         return acc[curr] ? ++acc[curr] : acc[curr] = 1, acc
